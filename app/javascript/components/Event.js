@@ -12,6 +12,7 @@ const Event = ({ events, onDelete }) => {
   return (
     <>
       <div className="eventContainer">
+        <br />
         <h2>
           {event.event_date}
           {" - "}
